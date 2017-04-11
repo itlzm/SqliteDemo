@@ -15,6 +15,10 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        //为使用SQLScout的Live Device Connection功能添加maven依赖
+        maven {
+            url 'http://www.idescout.com/maven/repo/'
+        }
     }
 }
 

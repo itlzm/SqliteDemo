@@ -10,10 +10,6 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Jne
- * Date: 2015/1/6.
- */
 public class OrderDao {
     private static final String TAG = "OrdersDao";
 

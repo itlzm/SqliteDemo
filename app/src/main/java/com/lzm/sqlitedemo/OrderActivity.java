@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.*;
 import java.util.List;
+
+import com.idescout.sql.SqlScoutServer;
 import com.lzm.utils.PressUtil;
 
 public class OrderActivity extends Activity {
@@ -27,6 +29,8 @@ public class OrderActivity extends Activity {
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //为使用SQLScout的Live Device Connection功能在主Activity打开时初始化
+        SqlScoutServer.create(this, getPackageName());
 
         setContentView(R.layout.activity_order);
 

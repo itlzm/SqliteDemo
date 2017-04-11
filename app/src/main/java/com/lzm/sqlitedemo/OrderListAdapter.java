@@ -6,10 +6,7 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 import java.util.List;
 
-/**
- * Created by Jne
- * Date: 2015/1/11.
- */
+
 public class OrderListAdapter extends BaseAdapter{
     private Context context;
     private List<Order> orderList;

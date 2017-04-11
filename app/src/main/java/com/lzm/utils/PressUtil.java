@@ -7,9 +7,6 @@ import com.lzm.sqlitedemo.OrderContext;
 
 /**
  * 处理按钮的按下效果
- * Created by JianHuang
- * Date: 2015/1/13
- * Time: 11:08
  */
 public class PressUtil {
     /**
